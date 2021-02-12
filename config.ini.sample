@@ -1,13 +1,14 @@
 [General]
 # DEBUG, INFO, WARNING, ERROR
 LoggingLevel = DEBUG
-Logfile = /opt/SubSyncStarter/SubSyncStarter.log
+Logfile = C:\ProgramData\SubSyncStarter\SubSyncStarter.log
 BazarrApiKey = 123
+BazarrUrlBase = https://bazarr.domain.com
 
 [SubSync]
-Location = /snap/bin/subsync
+Location = "C:\Program Files\subsync\subsync-cmd.exe"
 LoggingLevel = 1
-Logfile = /opt/SubSyncStarter/subsync.log
+Logfile = C:\ProgramData\SubSyncStarter\SubSyncStarter.log
 Effort = 1
 WindowSize = 300
 MaxPointDistance = 1
